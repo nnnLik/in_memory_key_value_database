@@ -48,7 +48,10 @@ void show_help_msg(void)
 {
     printf("Command Format:\n");
     printf("  > set {!type} {!key} {!value} - Insert data.\n");
-    printf("  > get {!key} - Retrieves data using the specified key.\n\n");
+    printf("  > get {!key} - Retrieves data using the specified key.\n");
+    printf("  > delete {!key} - Deletes data using the specified key.\n");
+    printf("  > aget - Retrieves all data in a tabular format.\n");
+    printf("  > exit - Exits the program.\n\n");
 
     printf("Command Components:\n");
     printf("  {!type} - Type of data (e.g., string, int, etc.).\n");
